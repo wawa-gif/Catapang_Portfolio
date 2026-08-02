@@ -12,7 +12,6 @@ html {
 
 body {
   margin: 0;
-  min-height: 100vh;
   background: #f8f8f6;
   color: #121212;
   font-family: var(--font-inter), Arial, sans-serif;
@@ -26,5 +25,19 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer components {
+  .section-shell {
+    @apply px-4 py-20 sm:px-6 sm:py-24 lg:px-8 lg:py-24;
+  }
+
+  .section-shell-compact {
+    @apply px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24;
+  }
+
+  .section-shell-hero {
+    @apply px-4 pb-20 pt-28 sm:px-6 sm:pb-24 sm:pt-32 lg:px-8 lg:pb-28 lg:pt-36;
   }
 }

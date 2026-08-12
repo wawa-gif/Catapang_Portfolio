@@ -104,7 +104,7 @@ export default function HomePage() {
           <div className="mx-auto grid w-full max-w-7xl gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }} className="flex flex-col justify-center">
               <p className="mb-4 text-[0.75rem] uppercase tracking-[0.4em] text-stone-500 dark:text-stone-400">
-                Creative Developer / New York
+                Creative Developer / Philippines
               </p>
               <motion.h1 initial={{ opacity: 0, y: 28 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 1.1, ease: [0.22, 1, 0.36, 1] }} className="font-serif text-5xl leading-[0.9] sm:text-6xl lg:text-8xl">
                 Nathan Catapang
@@ -117,7 +117,7 @@ export default function HomePage() {
               </motion.p>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7, duration: 0.9, ease: [0.22, 1, 0.36, 1] }} className="mt-8 flex flex-wrap gap-3 text-sm text-stone-600 dark:text-stone-400">
                 <span className="rounded-full border border-black/10 px-4 py-2 dark:border-white/10">Available for select projects</span>
-                <span className="rounded-full border border-black/10 px-4 py-2 dark:border-white/10">Current focus: immersive storytelling</span>
+                <span className="rounded-full border border-black/10 px-4 py-2 dark:border-white/10">Current focus: Developing Myself</span>
               </motion.div>
             </motion.div>
 
@@ -130,7 +130,7 @@ export default function HomePage() {
               <div className="relative mt-8 space-y-5 text-sm leading-7 text-stone-700 dark:text-stone-300">
                 <div>
                   <span className="block text-[0.7rem] uppercase tracking-[0.35em] text-stone-500 dark:text-stone-400">Location</span>
-                  <span className="mt-1 block">Remote / New York, US</span>
+                  <span className="mt-1 block">Remote / Philippines</span>
                 </div>
                 <div>
                   <span className="block text-[0.7rem] uppercase tracking-[0.35em] text-stone-500 dark:text-stone-400">Experience</span>
@@ -199,15 +199,27 @@ export default function HomePage() {
           <div className="mx-auto grid w-full max-w-7xl gap-8 rounded-[40px] border border-black/10 bg-[#efece4]/80 p-8 shadow-soft backdrop-blur-xl dark:border-white/10 dark:bg-[#121212]/80 lg:grid-cols-[1fr_1fr] lg:p-12">
             <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.3 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
               <p className="text-[0.7rem] uppercase tracking-[0.35em] text-stone-500">Experience</p>
-              <h3 className="mt-3 font-serif text-3xl sm:text-4xl">Selected clients and capabilities</h3>
+              <h3 className="mt-3 font-serif text-3xl sm:text-4xl">Selected internships and responsibilities</h3>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.3 }} transition={{ delay: 0.1, duration: 0.9, ease: [0.22, 1, 0.36, 1] }} className="space-y-5 text-base leading-8 text-stone-700 dark:text-stone-300">
-              <p>Design systems, front-end engineering, animation direction, and high-end storytelling for ambitious brands and digital products.</p>
-              <div className="flex flex-wrap gap-2">
-                <span className="rounded-full border border-black/10 px-3 py-2 text-sm dark:border-white/10">React</span>
-                <span className="rounded-full border border-black/10 px-3 py-2 text-sm dark:border-white/10">Next.js</span>
-                <span className="rounded-full border border-black/10 px-3 py-2 text-sm dark:border-white/10">Framer Motion</span>
-                <span className="rounded-full border border-black/10 px-3 py-2 text-sm dark:border-white/10">Tailwind</span>
+              <div>
+                <p className="font-semibold">Diliman Preparatory School — Student Intern</p>
+                <ul className="mt-3 list-disc space-y-2 pl-5">
+                  <li>Managed computer laboratory inventory and equipment.</li>
+                  <li>Installed and configured Wi-Fi and Windows software.</li>
+                  <li>Developed a basic application.</li>
+                  <li>Assisted in managing the institution’s network.</li>
+                </ul>
+              </div>
+              <div>
+                <p className="font-semibold">PhilHealth Provincial Office III-A — Student Intern</p>
+                <ul className="mt-3 list-disc space-y-2 pl-5">
+                  <li>Organized and encoded documents and requests in the system.</li>
+                  <li>Assisted with laptop and equipment specifications.</li>
+                  <li>Delivered and processed essential documents.</li>
+                  <li>Supported various office operations.</li>
+                  <li>Gained experience with SQL.</li>
+                </ul>
               </div>
             </motion.div>
           </div>

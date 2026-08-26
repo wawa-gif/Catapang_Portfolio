@@ -172,9 +172,10 @@ export default function HomePage() {
                   <h4 className="relative mt-7 font-serif text-3xl leading-tight">{project.title}</h4>
                   <p className="relative mt-3 text-sm leading-7 opacity-90">{project.summary}</p>
                   <div className="relative mt-6 flex flex-wrap gap-2 text-[0.7rem] uppercase tracking-[0.3em] opacity-80">
-                    <span className="rounded-full border border-current/20 px-3 py-1">Next.js</span>
-                    <span className="rounded-full border border-current/20 px-3 py-1">Motion</span>
-                    <span className="rounded-full border border-current/20 px-3 py-1">Systems</span>
+                    <span className="rounded-full border border-current/20 px-3 py-1">C</span>
+                    <span className="rounded-full border border-current/20 px-3 py-1">JavaScript</span>
+                    <span className="rounded-full border border-current/20 px-3 py-1">HTML</span>
+                    <span className="rounded-full border border-current/20 px-3 py-1">SQL</span>
                   </div>
                 </motion.article>
               ))}
@@ -231,10 +232,10 @@ export default function HomePage() {
               <p className="font-serif text-2xl text-stone-900 dark:text-stone-100">Let’s build something lasting.</p>
             </div>
             <div className="flex flex-wrap gap-4">
-              <a href="mailto:nathan@example.com" className="transition hover:text-stone-950 dark:hover:text-white">
-                nathan@example.com
+              <a href="mailto:nathanjamescatapang022@gmail.com" className="transition hover:text-stone-950 dark:hover:text-white">
+                nathanjamescatapang022@gmail.com
               </a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="transition hover:text-stone-950 dark:hover:text-white">
+              <a href="https://www.linkedin.com/in/nathan-james-catapang-b9027b306/" target="_blank" rel="noreferrer" className="transition hover:text-stone-950 dark:hover:text-white">
                 LinkedIn
               </a>
             </div>

@@ -134,7 +134,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <span className="block text-[0.7rem] uppercase tracking-[0.35em] text-stone-500 dark:text-stone-400">Experience</span>
-                  <span className="mt-1 block">8+ years crafting premium digital products</span>
+                  <span className="mt-1 block">C, JavaScript, HTML, SQL, and more</span>
                 </div>
               </div>
             </motion.aside>
